@@ -1,0 +1,629 @@
+[33mcommit 8f8e07cd359bc88430495d0aeed3d3a417aa7107[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: tyson <tysondai@outlook.com>
+Date:   Tue Jul 5 08:28:01 2022 +0800
+
+    更改目录
+
+[33mcommit 4dc2e1c43caabd59ef24f6df046ddc5840275ae1[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Jun 19 17:15:50 2022 +0800
+
+    update
+
+[33mcommit 8ef828dd4e63fd24fa28b06b2334ec0f863b1715[m
+Author: tyson <tysondai@outlook.com>
+Date:   Thu Jun 16 23:32:40 2022 +0800
+
+    update
+
+[33mcommit 1afc40b4f82950c3153ab2753d0bc3a3bfaf30e1[m
+Author: tyson <tysondai@outlook.com>
+Date:   Fri Jun 3 14:38:18 2022 +0800
+
+    调整目录结构
+
+[33mcommit 156db24662d9c971173edfdf1c30c36662976135[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun May 22 20:14:47 2022 +0800
+
+    update
+
+[33mcommit bc29969701ab5354886331a1c405cd0975e96be8[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun May 22 16:57:41 2022 +0800
+
+    update
+
+[33mcommit 415bd82b7b98c8e75e60a4f70c32d4a081a84493[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed May 18 21:20:58 2022 +0800
+
+    update img url
+
+[33mcommit 14844a8d7c1441c5184ef02cab7ce54f41a2d4be[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed May 18 21:15:06 2022 +0800
+
+    update img url
+
+[33mcommit 75801c53fe4162b5b615edb91101666607eea014[m
+Author: tyson <tysondai@outlook.com>
+Date:   Tue May 10 21:02:30 2022 +0800
+
+    update
+
+[33mcommit e44546f63d22dd1f953d561405f69b77348c0d3c[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Mar 26 14:46:53 2022 +0800
+
+    update img path
+
+[33mcommit 9234ac1f36f8d3920b537a1fc7b41034319f201f[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Mar 26 14:34:34 2022 +0800
+
+    add 操作系统
+
+[33mcommit 09ae10db27d8352d7a60fbada8f2f797594cfe90[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Mar 26 14:33:16 2022 +0800
+
+    更新Java基础面试题
+
+[33mcommit dc17e5157e9de057dd4f34062cb395b7475daf9a[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Mar 26 10:51:22 2022 +0800
+
+    Java基础面试题补充
+
+[33mcommit b9e246dc14f55d87c41ce9397d5a687918bea22b[m
+Author: tyson <tysondai@outlook.com>
+Date:   Mon Mar 21 12:05:13 2022 +0800
+
+    增加消息队列面试题
+
+[33mcommit 76efb6e79383466814af0e3fbf0b2e2b02d20349[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Mar 20 11:40:39 2022 +0800
+
+    Redis面试题补充
+
+[33mcommit 24b957b1ea052967458a33a55d6cf2b83dbc6a1a[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Mar 19 14:09:45 2022 +0800
+
+    增加Java并发面试题
+
+[33mcommit da27883e5049eaa3bfc9cdff183235a8cc2b76fa[m
+Author: tyson <tysondai@outlook.com>
+Date:   Fri Mar 11 08:49:32 2022 +0800
+
+    LeetCode刷题技巧
+
+[33mcommit c07d8623b63ab75ca9d4b2f3956d5742a5b79f58[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Mar 6 18:09:06 2022 +0800
+
+    怎么写简历
+
+[33mcommit c575e476cfaa9be5c8934c6de80b27baeef88335[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Mar 6 12:06:00 2022 +0800
+
+    图解索引下推
+
+[33mcommit a0f984384379fe5df12d47ab86716a0cdf3cfdd9[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed Mar 2 18:00:46 2022 +0800
+
+    存储过程语句查看
+
+[33mcommit 665c518390f875bf6002256243f1746ae477d2ac[m
+Author: tyson <tysondai@outlook.com>
+Date:   Mon Feb 28 12:11:14 2022 +0800
+
+    add Springboot面试题总结
+
+[33mcommit 472280dcafdf69bac915a6df9a30237235ff4cc0[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Feb 27 19:05:28 2022 +0800
+
+    update readme
+
+[33mcommit 456157e0964f53ce5147ea3c69e29a445a689a7c[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Feb 27 18:07:38 2022 +0800
+
+    整理Spring面试题
+
+[33mcommit da6295e00b59696c99cc810493be2b2df482570e[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Feb 27 18:02:58 2022 +0800
+
+    整理JVM面试题
+
+[33mcommit c1f015c2b9102c74e7419bb206c05dc13e94aad1[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Feb 27 12:29:48 2022 +0800
+
+    Java集合面试题整理
+
+[33mcommit 59f74b80fa1e2630565993a54d2ea3f5ef603d16[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Feb 27 00:31:00 2022 +0800
+
+    Java核心知识面试题整理
+
+[33mcommit 8b08743b38340b9b8fce41dc9dbcb583cc5ab7fa[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Feb 26 18:22:13 2022 +0800
+
+    并发知识点整理补充
+
+[33mcommit 59267fe8354383a6fbe3578f6e3e46c983ee19a9[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Feb 12 00:19:21 2022 +0800
+
+    更新jvm jinfo
+
+[33mcommit de7997162bfc9305046e4db0c1147cc226d280ca[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Feb 12 00:18:44 2022 +0800
+
+    更新MySQL幻读
+
+[33mcommit 8f3014a19f7173dbb7fa715a77bc37bab6cf18d4[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Dec 19 09:09:12 2021 +0800
+
+    修正全文索引
+
+[33mcommit 7f1a1d8406ce0e52d4bd442be09497970c398065[m
+Author: tyson <tysondai@outlook.com>
+Date:   Fri Dec 10 21:52:30 2021 +0800
+
+    update
+
+[33mcommit 30c124459fd93ca52e11b0132c0023ef4e811788[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Nov 28 11:38:48 2021 +0800
+
+    Java高频面试题整理
+
+[33mcommit 3960e09dd178aad0cdf39689bd6949ffb4d6d8b8[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Nov 20 14:50:46 2021 +0800
+
+    update
+
+[33mcommit 58fb72646705dd810ad5e10b3200eabe4faba9f8[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Nov 20 14:49:37 2021 +0800
+
+    update
+
+[33mcommit 502966a0668c3d097facf894e54060cdf76ff967[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Nov 14 11:43:36 2021 +0800
+
+    update
+
+[33mcommit 726c05f44d61ef09568e2f51d7c4dc73e776c247[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Oct 31 16:10:31 2021 +0800
+
+    赞赏码
+
+[33mcommit a3d77949ed8cfa668c9cf08825d2e409cd8292d8[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Oct 24 17:25:34 2021 +0800
+
+    add Spring高频面试题
+
+[33mcommit 07ec6477f03d0d5db3debd435e06965827423a82[m
+Author: tyson <tysondai@outlook.com>
+Date:   Mon Oct 18 23:36:43 2021 +0800
+
+    update docker
+
+[33mcommit 24d97d67e88a59d9bc46118146bc9ea547ad9b19[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Oct 17 21:12:57 2021 +0800
+
+    update
+
+[33mcommit e490fac7c8ea513c8691cd20a7a7026544957580[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Oct 17 21:04:19 2021 +0800
+
+    更新计算机网络面试题
+
+[33mcommit 2d6f950b5720ad4488821d09964cd9a0898a2720[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Oct 17 00:08:50 2021 +0800
+
+    更新MySQL高频面试题
+
+[33mcommit df5781a5a2376898940467ac72bf9c5472bfe1ac[m
+Author: tyson <tysondai@outlook.com>
+Date:   Tue Oct 12 08:23:41 2021 +0800
+
+    update
+
+[33mcommit 49a4cc1062de088de6bc66a4005243afd3011709[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Oct 10 16:05:53 2021 +0800
+
+    更新jvm面试题
+
+[33mcommit 8ac00f25b4e19bbfc90c8c0fdb806467cdbb10ee[m
+Author: tyson <tysondai@outlook.com>
+Date:   Fri Oct 8 21:52:59 2021 +0800
+
+    update
+
+[33mcommit 62388cc28ce04538b2fed5bb97b4df50746631d5[m
+Author: tyson <tysondai@outlook.com>
+Date:   Thu Oct 7 15:41:32 2021 +0800
+
+    Redis面试题
+
+[33mcommit edb782cf57b9c75981afe0ca18bf56ae31424264[m
+Author: tyson <tysondai@outlook.com>
+Date:   Tue Oct 5 17:18:11 2021 +0800
+
+    update
+
+[33mcommit 8f8177c756c86b7a9ba5969758bf39793bfde00a[m
+Author: tyson <tysondai@outlook.com>
+Date:   Tue Oct 5 16:22:19 2021 +0800
+
+    update
+
+[33mcommit 6865c23a9bb699b50a5124e65a178c38cf019ef7[m
+Author: tyson <tysondai@outlook.com>
+Date:   Tue Oct 5 13:38:21 2021 +0800
+
+    更新目录
+
+[33mcommit 503df1e37adee3eda71fe8655a6bcc58a9dd8cf2[m
+Author: tyson <tysondai@outlook.com>
+Date:   Mon Oct 4 23:58:44 2021 +0800
+
+    增加jvm、集合、redis面试题
+
+[33mcommit 2898273138bc88c42b5ec430dfd206c8543cd88f[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Sep 25 16:39:49 2021 +0800
+
+    update
+
+[33mcommit 8e457121d1f23822c33432b4629323fbc917e6d0[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Sep 25 16:07:26 2021 +0800
+
+    更新MySQL高频面试题目录
+
+[33mcommit 1267e3a1d4b8d435c760b8eb174d7fb621cb6401[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Sep 25 16:03:48 2021 +0800
+
+    MySQL高频面试题
+
+[33mcommit 952f6a814eea76cde1e3d2b37c93d63a9940e51b[m
+Author: tyson <tysondai@outlook.com>
+Date:   Tue Sep 21 12:29:51 2021 +0800
+
+    增加计算机网络高频面试题
+
+[33mcommit a06ec7c432a9b65203a69bb9ab4cea474bcf6b31[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Sep 19 17:16:27 2021 +0800
+
+    添加Java面试题
+
+[33mcommit b2a8aaf67e7d8056e3c09ac85269eec5626b6b43[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Sep 19 13:11:35 2021 +0800
+
+    添加Java并发高频面试题目（精华版）
+
+[33mcommit f27b1f8e5e8e6304ce23882540fa340cfff09297[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed Sep 15 08:46:20 2021 +0800
+
+    更新RabbitMQ核心知识总结
+
+[33mcommit 6652a883480135f80dbe37bbb25f3bd31c0995f5[m
+Author: tyson <tysondai@outlook.com>
+Date:   Tue Sep 14 00:11:03 2021 +0800
+
+    更新目录
+
+[33mcommit b8e9ee6b619730591f8e32e84dc8ee649ae9ad6c[m
+Author: tyson <tysondai@outlook.com>
+Date:   Tue Sep 14 00:09:28 2021 +0800
+
+    更新Redis基础知识
+
+[33mcommit cca80d8275aca6dbee393ed201d9a4c7ea6fffc7[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Sep 12 16:22:40 2021 +0800
+
+    网络分层结构
+
+[33mcommit a84159e3a46fa435c3055c695671c3551b277c5a[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Sep 12 00:44:38 2021 +0800
+
+    update数据结构与算法
+
+[33mcommit 061a290bbee12c9a02c7a4ebff2b0f0ab4761b68[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Sep 11 17:10:57 2021 +0800
+
+    github使用技巧
+
+[33mcommit 77cbb099b9ce0ca2998df25cea34e835073eb891[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Sep 11 16:20:07 2021 +0800
+
+    update
+
+[33mcommit 8b1e07d24ba1a3eb7c6214ce7f590bca29a68521[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Sep 11 11:46:47 2021 +0800
+
+    更新Java并发总结
+
+[33mcommit fcae887ada18a6490c10b820252606b24c7652a7[m
+Author: tyson <tysondai@outlook.com>
+Date:   Fri Sep 10 23:33:11 2021 +0800
+
+    更新Java基础知识总结
+
+[33mcommit 816ea84db15fcda457ef0fbbbaa76ec0caaf6936[m
+Author: tyson <tysondai@outlook.com>
+Date:   Fri Sep 10 08:51:00 2021 +0800
+
+    更新并发总结
+
+[33mcommit 5e7d3ae067f1d77608cb9c052e060520886212ff[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed Sep 8 23:22:34 2021 +0800
+
+    update
+
+[33mcommit ae514b24061e5c79a0589bea0223d6ad17265df4[m
+Author: tyson <tysondai@outlook.com>
+Date:   Tue Sep 7 22:29:30 2021 +0800
+
+    完善Java8总结
+
+[33mcommit 1168cf6dfa18254b54821446add1911f6f773d3d[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Sep 5 22:00:58 2021 +0800
+
+    完善容器总结
+
+[33mcommit 0e2f0bb19821c9c9a0e1b9bcc102c97cf3bf7485[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Sep 5 16:52:30 2021 +0800
+
+    jvm总结
+
+[33mcommit 4ef566bf0c3ac655c00d55d12da4f77be783a3f2[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed Sep 1 22:34:28 2021 +0800
+
+    update Git总结
+
+[33mcommit 2465904ba0908d827056409e127d23076141801c[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed Sep 1 22:11:04 2021 +0800
+
+    update README
+
+[33mcommit 08e663a1e642fd78f8355feb9ffdd8c2db9a567e[m
+Author: tyson <tysondai@outlook.com>
+Date:   Tue Aug 31 22:22:40 2021 +0800
+
+    git总结
+
+[33mcommit 75f8b362b17222d3e1e7b0d7be633a16b57a283a[m
+Author: tyson <tysondai@outlook.com>
+Date:   Tue Aug 24 00:05:36 2021 +0800
+
+    update
+
+[33mcommit cd72e4ff0f3b39cb5193b8230fb878f618be9448[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Aug 21 17:12:41 2021 +0800
+
+    删除查询性能优化
+
+[33mcommit 6bddc95b583b3c54203b4f21df9462c4c091671d[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Aug 21 16:16:23 2021 +0800
+
+    MySQL总结整理
+
+[33mcommit f8ace0e1e3b56ea456dd39ec45f3e59ff742e99e[m
+Author: tyson <tysondai@outlook.com>
+Date:   Tue Aug 17 08:37:17 2021 +0800
+
+    java常见关键字总结
+
+[33mcommit 0c4efeba935b9a848dffaae4d4ec7b91b54fd34e[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Aug 15 23:38:19 2021 +0800
+
+    删除android
+
+[33mcommit 4844de5e0eb31e88370cb7426dc0717c9a3e53fb[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed Aug 4 21:48:42 2021 +0800
+
+    mysql执行计划
+
+[33mcommit 635c140a06923a1a8accf06a8d309a5cad0fd366[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Aug 1 18:20:15 2021 +0800
+
+    redis分布式锁
+
+[33mcommit 7b65bc3027aaec3a98650d478fddc720dc831e9e[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Aug 1 11:22:36 2021 +0800
+
+    update
+
+[33mcommit e563eec7dd2ddc76d3b9d42f4cbfbf80dbdd5a9c[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Aug 1 11:18:52 2021 +0800
+
+    update
+
+[33mcommit 67e1cf7c26ce1a7ea4deb1392bd576c8896dfa10[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Aug 1 11:02:23 2021 +0800
+
+    update readme
+
+[33mcommit 218f353cfde7094a80758908137e7f458592bf42[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Aug 1 10:47:41 2021 +0800
+
+    调整目录结构
+
+[33mcommit 94283146d1620e972816ec708c85c9d208a96095[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Aug 1 10:29:57 2021 +0800
+
+    整理Java基础内容
+
+[33mcommit fccdc1f4e78279472d6e653295749e941302f413[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Jul 18 00:56:47 2021 +0800
+
+    update
+
+[33mcommit 82fbeb5b7a26a7e3f3f4be3b3025e22477e3fbd2[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed Jun 23 22:52:34 2021 +0800
+
+    cdn
+
+[33mcommit 6082ec086ad597225e7d00798de924118c8ee95b[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Jun 20 01:01:45 2021 +0800
+
+    更新docker
+
+[33mcommit 5029123857cd2d31e0aa6b64ba6f55a1323ddaa4[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed Jun 16 08:45:43 2021 +0800
+
+    update grep
+
+[33mcommit 2cf906bcc36d977caa980d48bce9af7c945849d5[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun May 9 20:55:53 2021 +0800
+
+    servlet补充
+
+[33mcommit e5031ffd9feac4e9d7d06e6a86f52732331183f7[m
+Author: tyson <tysondai@outlook.com>
+Date:   Thu May 6 01:39:23 2021 +0800
+
+    update Linux
+
+[33mcommit a318da0e81442d52fa758d8afb48512990545ec2[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed May 5 22:02:44 2021 +0800
+
+    update目录
+
+[33mcommit 1304651e805a5eeacef5609ae9e6b8336c8842e9[m
+Author: tyson <tysondai@outlook.com>
+Date:   Thu Apr 29 08:31:03 2021 +0800
+
+    修改图片链接
+
+[33mcommit f5bc7373b8de643f661db24aa3dd37bb1b8a2fb4[m
+Author: tyson <tysondai@outlook.com>
+Date:   Thu Apr 22 23:26:05 2021 +0800
+
+    单体应用和微服务的优缺点
+
+[33mcommit ca3d044bd3ec0c79321a0d2e335bb91a380b7206[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed Apr 21 23:44:49 2021 +0800
+
+    jenkins
+
+[33mcommit 4b3d0a59b48f31b20d819d25559f737a845d12e7[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed Apr 21 23:41:11 2021 +0800
+
+    docker
+
+[33mcommit 3ebf1cee3ce8ba920adf91ac8f94d856a0827864[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed Apr 21 23:40:58 2021 +0800
+
+    nginx update
+
+[33mcommit 6d70fd897f613901737501278f7f471bb39a41de[m
+Author: tyson <tysondai@outlook.com>
+Date:   Wed Apr 21 23:40:22 2021 +0800
+
+    linux命令补充
+
+[33mcommit bd5c9b3d75b7b8b9f67567ad7d6fef42dc96a9a2[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Apr 17 10:56:20 2021 +0800
+
+    nio/bio补充
+
+[33mcommit edcc52bc57bea61f522ae3fc680494592dc3711a[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sat Apr 17 10:55:53 2021 +0800
+
+    tomcat和netty区别
+
+[33mcommit 8bb882892f9e774dea8c24b71fc85097a87a2c6b[m
+Author: tyson <tysondai@outlook.com>
+Date:   Fri Apr 16 09:29:29 2021 +0800
+
+    补充websocket
+
+[33mcommit c342b4ccd786963df36f53cf7d3a5680fd5bb865[m
+Author: tyson <tysondai@outlook.com>
+Date:   Fri Apr 16 08:46:20 2021 +0800
+
+    spring cloud security、oauth2
+
+[33mcommit 4d2059c3e09f5bfa041f49d36b4fd5cf79c46796[m
+Author: tyson <tysondai@outlook.com>
+Date:   Mon Apr 5 22:42:05 2021 +0800
+
+    spring cloud gateway
+
+[33mcommit e9d07dff524c508cca859a2de5ce40738fa27ac5[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Apr 4 21:49:05 2021 +0800
+
+    spring cloud bus
+
+[33mcommit 44c8a250b534a3bff7b5fc53a289759c936d72b6[m
+Author: tyson <tysondai@outlook.com>
+Date:   Sun Apr 4 00:40:13 2021 +0800
+
+    zuul、config
+
+[33mcommit ef4eef6a62c481fdad1d74c41fc0e9db7c02051e[m
+Author: tyson <tysondai@outlook.com>
+Date:   Mon Mar 15 13:24:51 2021 +0800
+
+    git rebase -i
