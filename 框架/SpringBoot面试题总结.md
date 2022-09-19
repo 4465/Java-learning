@@ -3,7 +3,7 @@
 - 内置servlet容器，不需要在服务器部署 tomcat。只需要将项目打成 jar 包，使用 java -jar xxx.jar一键式启动项目
 - SpringBoot提供了starter，把常用库聚合在一起，简化复杂的环境配置，快速搭建spring应用环境
 - 可以快速创建独立运行的spring项目，集成主流框架
-- 准生产环境的运行应用监控 
+- 准生产环境的运行应用监控 ，我们可以引入 spring-boot-start-actuator 依赖，直接使用 REST 方式来获取进程的运行期性能参数，从而达到监控的目的，比较方便。但是 Spring Boot 只是个微框架，没有提供相应的服务发现与注册的配套功能，没有外围监控集成方案，没有外围安全管理方案，所以在微服务架构中，还需要 Spring Cloud 来配合一起使用。
 
 ## SpringBoot 中的 starter 到底是什么 ?
 
@@ -12,8 +12,10 @@ starter提供了一个自动化配置类，一般命名为 XXXAutoConfiguration 
 ## 运行 SpringBoot 有哪几种方式？
 
 1. 打包用命令或者者放到容器中运行
-2. 用 Maven/Gradle 插件运行
-3. 直接执行 main 方法运行
+   - 打包成jar包后，利用`java -jar xxx.jar`运行
+   - 打包成war包后，利用`java -jar xxx.war`运行
+2. 用 Maven/Gradle 插件运行，如：mvn spring-boot:run
+3. 直接运行启动类(main方法)
 
 ## SpringBoot 常用的 Starter 有哪些？
 
@@ -23,6 +25,8 @@ starter提供了一个自动化配置类，一般命名为 XXXAutoConfiguration 
 4. mybatis-spring-boot-starter ：提供 MyBatis 。
 
 ## 自动配置原理
+
+[Spring Boot面试必问：自动配置原理]: https://blog.csdn.net/weixin_42556307/article/details/108405009
 
 SpringBoot实现自动配置原理图解：
 
