@@ -176,16 +176,17 @@ int y = x; // 拆箱 调⽤了 X.intValue()
 
 String是final类，不可被继承。
 
-### String拼接
+### String拼接（String、StringBuilder、StringBuffer区别和效率比较）
 
 字符串拼接可以使用String用+做拼接，也可以使用StringBuilder和StringBuffer实现，三种方式对比：
 
 - 底层都是char数组实现的
-
 - 字符串拼接性能：StringBuilder > StringBuffer > String
 - String 是字符串常量，一旦创建之后该对象是不可更改的，用+对String做拼接操作，实际上是先通过建立StringBuilder，然后调用append()做拼接操作，所以在大量字符串拼接的时候，会频繁创建StringBuilder，性能较差。
 - StringBuilder和StringBuffer的对象是字符串变量，对变量进行操作就是直接对该对象进行修改（修改char[]数组），所以速度要比String快很多。
-- 在线程安全上，StringBuilder是线程不安全的，而StringBuffer是线程安全的，StringBuffer中很多方法带有synchronized关键字，可以保证线程安全。
+- 在线程安全上，StringBuilder是线程不安全的，而StringBuffer是线程安全的，StringBuffer中很多方法带有synchronized关键字，可以保证线程安全。StringBuffer为了做到线程安全，牺牲一定的效率是必然的，所以StringBuffer的效率比StringBuilder效率差。
+
+**总结：**效率比较StringBuilder>StringBuffer>String
 
 ## 关键字
 
