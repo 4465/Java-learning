@@ -72,9 +72,85 @@ AOP有两种实现方式：静态代理和动态代理。
 
 **静态代理**
 
-静态代理：代理类在编译阶段生成，在编译阶段将通知织入Java字节码中，也称编译时增强。AspectJ使用的是静态代理。
+静态代理：代理类是我们定义好的，在编译阶段生成，在编译阶段将通知织入Java字节码中，也称编译时增强。AspectJ使用的是静态代理。
 
 缺点：代理对象需要与目标对象实现一样的接口，并且实现接口的方法，会有冗余代码。同时，一旦接口增加方法，目标对象与代理对象都要维护。
+
+**例子：**首先，我们创建一个Person接口。这个接口就是学生（被代理类），和班长（代理类）的公共接口，他们都有交作业的行为。这样，学生交作业就可以让班长来代理执行。
+
+```java
+/**
+ * Created by Mapei on 2018/11/7
+ * 创建person接口
+ */
+public interface Person {
+    //交作业
+    void giveTask();
+}
+```
+
+Student类实现Person接口，Student可以具体实施交作业这个行为。
+
+```java
+/**
+ * Created by Mapei on 2018/11/7
+ */
+public class Student implements Person {
+    private String name;
+    public Student(String name) {
+        this.name = name;
+    }
+ 
+    public void giveTask() {
+        System.out.println(name + "交语文作业");
+    }
+}
+```
+
+StudentsProxy类，这个类也实现了Person接口，但是还另外持有一个学生类对象，那么他可以代理学生类对象执行交作业的行为。
+
+```java
+/**
+ * Created by Mapei on 2018/11/7
+ * 学生代理类，也实现了Person接口，保存一个学生实体，这样就可以代理学生产生行为
+ */
+public class StudentsProxy implements Person{
+    //被代理的学生
+    Student stu;
+ 
+    public StudentsProxy(Person stu) {
+        // 只代理学生对象
+        if(stu.getClass() == Student.class) {
+            this.stu = (Student)stu;
+        }
+    }
+ 
+    //代理交作业，调用被代理学生的交作业的行为
+    public void giveTask() {
+        stu.giveTask();
+    }
+}
+```
+
+下面测试一下，看代理模式如何使用：
+
+```java
+/**
+ * Created by Mapei on 2018/11/7
+ */
+public class StaticProxyTest {
+    public static void main(String[] args) {
+        //被代理的学生林浅，他的作业上交有代理对象monitor完成
+        Person linqian = new Student("林浅");
+ 
+        //生成代理对象，并将林浅传给代理对象
+        Person monitor = new StudentsProxy(linqian);
+ 
+        //班长代理交作业
+        monitor.giveTask();
+    }
+}
+```
 
 **动态代理**
 
@@ -86,7 +162,7 @@ AOP有两种实现方式：静态代理和动态代理。
 
 ## JDK动态代理和CGLIB动态代理的区别？
 
-Spring AOP中的动态代理主要有两种方式：JDK动态代理和CGLIB动态代理。
+Spring AOP中的动态代理主要有两种方式：JDK动态代理和CGLIB动态代理。在AOP的源码中会判断：如果目标类是接口类（目标对象实现了接口），则直接使用JDKproxy；其他情况使用CGlib动态代理。
 
 **JDK动态代理**
 
@@ -102,7 +178,7 @@ CGLIB是通过继承的方式做的动态代理，因此如果某个类被标记
 
 优点：目标类不需要实现特定的接口，更加灵活。
 
-什么时候采用哪种动态代理？
+什么时候采用哪种动态代理？（代码底层判断）
 
 1. 如果目标对象实现了接口，默认情况下会采用JDK的动态代理实现AOP
 2. 如果目标对象实现了接口，可以强制使用CGLIB实现AOP
@@ -111,7 +187,7 @@ CGLIB是通过继承的方式做的动态代理，因此如果某个类被标记
 **两者的区别**：
 
 1. jdk动态代理使用jdk中的类Proxy来创建代理对象，它使用反射技术来实现，不需要导入其他依赖。cglib需要引入相关依赖：`asm.jar`，它使用字节码增强技术来实现。
-2. 当目标类实现了接口的时候Spring Aop默认使用jdk动态代理方式来增强方法，没有实现接口的时候使用cglib动态代理方式增强方法。
+2. 当目标类实现了接口的时候Spring AOP默认使用jdk动态代理方式来增强方法，没有实现接口的时候使用cglib动态代理方式增强方法。
 
 ## Spring AOP相关术语
 
@@ -161,7 +237,21 @@ ioc的思想最核心的地方在于，资源不由使用资源者管理，而�
 
 ## 什么是依赖注入？
 
-在Spring创建对象的过程中，把对象依赖的属性注入到对象中。依赖注入主要有两种方式：构造器注入和属性注入。
+在Spring创建对象的过程中，把对象依赖的属性注入到对象中。依赖注入主要有两种方式：构造器注入、Setter注入和注解注入。
+
+@Autowired（自动注入）修饰符有三个属性：Constructor，byType，byName。默认按照byType注入。
+
+constructor：通过构造方法进行自动注入，spring会匹配与构造方法参数类型一致的bean进行注入，如果有一个多参数的构造方法，一个只有一个参数的构造方法，在容器中查找到多个匹配多参数构造方法的bean，那么spring会优先将bean注入到多参数的构造方法中。
+
+byName：被注入bean的id名必须与set方法后半截匹配，并且id名称的第一个单词首字母必须小写，这一点与手动set注入有点不同。
+byType：查找所有的set方法，将符合符合参数类型的bean注入。
+
+主要有四种注解可以注册bean，每种注解可以任意使用，只是语义上有所差异：
+
+@Component：可以用于注册所有bean
+@Repository：主要用于注册dao层的bean
+@Controller：主要用于注册控制层的bean
+@Service：主要用于注册服务层的bean
 
 ## IOC容器初始化过程？
 
