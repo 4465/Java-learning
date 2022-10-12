@@ -510,6 +510,8 @@ public class ReferenceCountingGc {
 
 ## 垃圾收集器
 
+[CMS和G1]: https://blog.csdn.net/KIMTOU/article/details/120939751
+
 经典的垃圾收集器主要有三种类型：串行收集器、并行收集器和并发标记清除收集器CMS，这三种收集器分别可以是满足Java应用三种不同的需求：内存占用及并发开销最小化、应用吞吐量最大化和应用GC暂停时间最小化。
 
 JDK1.7和1.8中默认使用的是Parallel Scavenge和Parallel Old收集器组合。jdk1.9 默认垃圾收集器是G1。
