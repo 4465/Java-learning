@@ -398,7 +398,12 @@ ARCHIVE存储引擎非常适合存储大量独立的、作为历史记录的数�
 3. **是否支持外键：** `MyISAM`不支持，而`InnoDB`支持。
 4. **是否支持MVCC** ：`MyISAM`不支持，`InnoDB`支持。应对高并发事务，MVCC比单纯的加锁更高效。
 5. `MyISAM`不支持聚集索引，`InnoDB`支持聚集索引。
-6. MyISAM强调性能，执行速度比InnoDB类型更快
+6. MyISAM强调性能，执行速度比InnoDB引擎更快
+7. InnoDB不支持FULLTEXT类型的索引，MyISAM支持全文索引
+8. 清空整个表时，InnoDB是一行一行的删除，效率非常慢。MyISAM则会重建表。
+9. 是否支持热备份，InnoDB支持热备份，MyISAM可以配合锁，实现操作系统下的复制备份、迁移
+
+**场景：**MyISAM适合查询以及插入为主的应用，InnoDB适合频繁修改以及涉及到安全性较高的应用
 
 ## MVCC 实现原理？
 
