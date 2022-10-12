@@ -804,7 +804,7 @@ int(10)中的10表示的是显示数据的长度，而char(10)表示的是存储
 
 ## MySQL查询 limit 1000,10 和limit 10 速度一样快吗？
 
-两种查询方式。对应 `limit offset, size` 和 `limit size` 两种方式。
+两种查询方式。对应 `limit offset, size` 和 `limit size` 两种方式，其中offset表示偏移值，size表示需要返回的数据行数量
 
 而其实 `limit size` ，相当于  `limit 0, size`。也就是从0开始取size条数据。
 
@@ -869,6 +869,35 @@ select * from xxx where id > start_id order by id limit 10;
 mysql
 
 通过主键索引，每次定位到start_id的位置，然后往后遍历10个数据，这样不管数据多大，查询性能都较为稳定。
+
+**方法三：**
+
+当偏移超过一半记录数的时候，先用排序，这样偏移就反转了
+
+limit偏移算法：
+正向查找： (当前页 – 1) * 页长度
+反向查找： 总记录 – 当前页 * 页长度
+
+```sql
+SELECT * FROM `abc` WHERE `BatchID` = 123 LIMIT 839960, 40
+- 时间：1.8696 秒 -
+SELECT * FROM `abc` WHERE `BatchID` = 123 ORDER BY InputDate DESC LIMIT 788775,
+- 时间：1.8336 秒 -
+```
+
+方法1、2、3的前提都是数据主键索引有序的情况下使用
+
+**方法四：**
+
+如果主键id是无序的，可以用inner join来优化
+
+```sql
+select t.* from tb_test t 
+inner join (select id from tb_test where val = 4 limit 100000, 5) tmp 
+on t.id = tmp.id;
+```
+
+**如果要优化limit查询的话，where条件中的字段一定要有索引。**
 
 ## 高度为3的B+树，可以存放多少数据？
 
